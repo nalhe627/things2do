@@ -1,6 +1,6 @@
 <h1 align="center">Things2Do</h1>
 <div align="center">
-  <img width="400" height="400" alt="Things2Do Logo" src="assets/images/logo1024x1024.png" />
+  <img width="300" height="300" alt="Things2Do Logo" src="assets/images/logo1024x1024.png" />
 </div>
 
 # Table of Contents
