@@ -3,8 +3,6 @@
   <img width="300" height="300" alt="Things2Do Logo" src="assets/images/logo1024x1024.png" />
 </div>
 
-# User Manual
-
 ## Overview
 
 Things2Do is a mobile app that helps users find interesting events, activities, or locations near their location for them to attend. Users can swipe right on these events to save them to their "ThingDeck" (a list of the user's saved events). Users have the option to later delete those events from their ThingDeck if desired.
@@ -101,7 +99,7 @@ npx expo start --android
 > [!IMPORTANT]
 > Before using the features of the application, please make sure you've completed the [Prerequisites for Using the Features](#prerequisites-for-using-the-features) section first.
 
-By the final release, the application will contain 5 major features:
+The mobile app contains 5 major features:
 1. [Creating "posts"](#creating-posts) (or "events", both terms are interchangeable)
 2. [Updating profile information](#updating-profiles)
 3. [Deleting a saved event from ThingDeck](#deleting-events-in-thingdeck)
@@ -202,15 +200,15 @@ Before using this feature, make sure you've [created an event from the Create Po
 ## Reporting Bugs
 
 > [!NOTE]
-> Before creating an issue of the bug you found, make sure to first search the [issue tracker](https://github.com/MRU-F2025-COMP3504/3504-term-project-things2do/issues) to see if the bug has already been reported and possibly solved.
+> Before creating an issue of the bug you found, make sure to first search the [issue tracker](https://github.com/nalhe627/things2do/issues) to see if the bug has already been reported and possibly solved.
 
-If you find a bug and would like to report it, you must [create an issue](https://github.com/MRU-F2025-COMP3504/3504-term-project-things2do/issues/new/choose) for it in the Github repository.
+If you find a bug and would like to report it, you must [create an issue](https://github.com/nalhe627/things2do/issues/new/choose) for it in the Github repository.
 
 **When creating your issue, please make sure to select the bug report template.** The bug report template is designed to help contributors know what information they need to add for their bug report.
 
 ### Information Needed for Bug Reports
 
-To know what information should be included when creating an issue for a bug, please look at the [issue template for bugs](https://github.com/MRU-F2025-COMP3504/3504-term-project-things2do/blob/main/.github/ISSUE_TEMPLATE/bug_report.md).
+To know what information should be included when creating an issue for a bug, please look at the [issue template for bugs](https://github.com/nalhe627/things2do/blob/main/.github/ISSUE_TEMPLATE/bug_report.md).
 
 ## Troubleshooting
 
@@ -276,23 +274,46 @@ To obtain the source code, you must clone the Github repository. Please follow t
 ## Directory Structure Layout
 ```
 3504-term-project-things2do/  
+├── .github/                    # GitHub specific files
+│   ├── ISSUE_TEMPLATE/         # Templates for creating new issues (e.g., bug reports)
+│   │
+│   └── workflows/              # GitHub Actions workflows for CI/CD (e.g., ci.yml for continuous integration)
+│
 ├── __mocks__/                  # Mocks for Jest tests (e.g., mocking style imports)
+│
 ├── __tests__/                  # Contains test files for the application (using Jest/React Testing Library)
+│
 ├── api/                        # Server-side API route handlers or functions
+│
 ├── app/                        # Main application source code, using file-based routing (Expo Router)
 │   ├── (auth)/                 # Route group for authentication screens (e.g., login, signup)
+│   │
 │   ├── (tabs)/                 # Route group for the main tab navigation
+│   │
 │   └── profile/                # Route group for profile sub-screens
 │
 ├── assets/                     # Static assets for the application
+│   ├── fonts/                  # Font files
+│   │
+│   └── images/                 # Image files (icons, logos, splash screens)
+│
 ├── components/                 # Reusable React components used throughout the app
 │   ├── thing-deck/             # Components specific to the 'thing-deck' feature
+│   │
 │   └── ui/                     # General-purpose UI components
 │
 ├── constants/                  # Files for constant values
+│
 ├── context/                    # React Context providers
+│
 ├── hooks/                      # Custom React hooks
+│
+├── reports/                    # Directory for project reports (e.g., weekly progress)
+│
+├── scripts/                    # Utility scripts for the project
+│
 ├── types/                      # Custom TypeScript type definitions
+│
 └── utils/                      # Utility functions
 ```
 
