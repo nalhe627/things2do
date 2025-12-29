@@ -276,46 +276,23 @@ To obtain the source code, you must clone the Github repository. Please follow t
 ## Directory Structure Layout
 ```
 3504-term-project-things2do/  
-├── .github/                    # GitHub specific files
-│   ├── ISSUE_TEMPLATE/         # Templates for creating new issues (e.g., bug reports)
-│   │
-│   └── workflows/              # GitHub Actions workflows for CI/CD (e.g., ci.yml for continuous integration)
-│
 ├── __mocks__/                  # Mocks for Jest tests (e.g., mocking style imports)
-│
 ├── __tests__/                  # Contains test files for the application (using Jest/React Testing Library)
-│
 ├── api/                        # Server-side API route handlers or functions
-│
 ├── app/                        # Main application source code, using file-based routing (Expo Router)
 │   ├── (auth)/                 # Route group for authentication screens (e.g., login, signup)
-│   │
 │   ├── (tabs)/                 # Route group for the main tab navigation
-│   │
 │   └── profile/                # Route group for profile sub-screens
 │
 ├── assets/                     # Static assets for the application
-│   ├── fonts/                  # Font files
-│   │
-│   └── images/                 # Image files (icons, logos, splash screens)
-│
 ├── components/                 # Reusable React components used throughout the app
 │   ├── thing-deck/             # Components specific to the 'thing-deck' feature
-│   │
 │   └── ui/                     # General-purpose UI components
 │
 ├── constants/                  # Files for constant values
-│
 ├── context/                    # React Context providers
-│
 ├── hooks/                      # Custom React hooks
-│
-├── reports/                    # Directory for project reports (e.g., weekly progress)
-│
-├── scripts/                    # Utility scripts for the project
-│
 ├── types/                      # Custom TypeScript type definitions
-│
 └── utils/                      # Utility functions
 ```
 
