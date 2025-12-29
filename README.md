@@ -46,7 +46,6 @@ Latest version recommended.
       sudo modprobe kvm_amd     # AMD only
     ```
 
----
 ## Getting Started (Running/Building the App)
 
 Follow these steps to build and run the Things2Do app.
