@@ -3,29 +3,11 @@
   <img width="300" height="300" alt="Things2Do Logo" src="assets/images/logo1024x1024.png" />
 </div>
 
-# Table of Contents
-- [User Manual](#user-manual)
-  - [High-Level Description](#high-level-description)
-  - [How to Install the Software](#how-to-install-the-software-prerequisite-software)
-  - [Getting Started (Running/Building the App)](#getting-started-runningbuilding-the-app)
-  - [Using the Software](#using-the-software)
-  - [Reporting Bugs](#reporting-bugs)
-  - [Troubleshooting](#troubleshooting)
-- [Developer Guide](#developer-guide)
-  - [How to Obtain the Source Code](#how-to-obtain-the-source-code)
-  - [Directory Structure Layout](#directory-structure-layout)
-  - [How to Build the Software](#how-to-build-the-software)
-  - [How to Test the Software](#how-to-test-the-software)
-  - [How to Add New Tests](#how-to-add-new-tests)
-  - [How to Build a Release of the Software](#how-to-build-a-release-of-the-software)
-  - [Continuous Integration (CI) Setup](#continuous-integration-ci-setup)
-- [Team Information](#team-information)
-
 # User Manual
 
-## High-Level Description
+## Overview
 
-This mobile application (Things2Do) helps users find interesting events, activities, or locations near their location for them to attend. Users can swipe right on these events to save them to their "ThingDeck" (a list of the user's saved events) where they'll receive notifications regarding those events (e.g., if the event was cancelled, when the event is 1 day away from happening, etc.). Users have the option to later delete those events from their ThingDeck if desired.
+Things2Do is a mobile app that helps users find interesting events, activities, or locations near their location for them to attend. Users can swipe right on these events to save them to their "ThingDeck" (a list of the user's saved events). Users have the option to later delete those events from their ThingDeck if desired.
 
 People and businesses can also promote their own events by creating them on the app, where it'll then be discoverable by other users in the Discovery page. Users can also leave reviews on other users/businesses related to their created events.
 
